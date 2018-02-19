@@ -21,8 +21,6 @@ angular.module('dashboardApp')
             // First approach inter-component communication
             // using broadcast event
             $rootScope.$broadcast('SelectCustomer', customer);
-            debugger;
-            onEventRaised();
 
             // Second approach inter-component communication
             // using rootScope function
